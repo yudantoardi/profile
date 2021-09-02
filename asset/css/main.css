@@ -103,6 +103,7 @@ h1,h2,h3,h4,h5,h6{
     margin-bottom: 22px;
     overflow: hidden;
     background: #000;
+    border: 1px solid #dedede;
 }
 .mason-item img{
     display: block;
@@ -159,7 +160,7 @@ h1,h2,h3,h4,h5,h6{
     bottom: 0;
 }
 .mason-item:hover img{
-    opacity: 0.7;
+    opacity: 0.3;
 }
 
 section,
@@ -382,7 +383,6 @@ footer{
     .main-content{
         margin-left: 0;
         width: 100%;
-        overflow-x: hidden;
     }
     .card-1{
         margin-bottom: 20px;
@@ -440,5 +440,10 @@ footer{
     .section-title{
         width: 100%;
     }
+
+    #home p.sub-1{
+        margin-bottom: 0;
+    }
+    
 
 }
